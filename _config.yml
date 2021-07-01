@@ -1,1 +1,35 @@
-theme: jekyll-theme-hacker
+# Site settings
+title: Aming
+description: 'Aming's Page'
+url: 'https://aming-xc.github.io/'
+baseurl: ''
+profilepic: '/images/tzuehlke.jpg'
+bkimage: '/images/bk1.jpg'
+google_analytics: UA-XXXXXX-X
+font_awesome: 'XXXXXXXXXX.js'
+
+author:
+  name: 'Aming'
+  email: siyuming1@163.com
+  twitter_username: Aming
+#  facebook_username: Aming
+  github_username:  Aming
+  linkedin_username:  xx
+  meetup_name: xx
+# Build settings
+destination: _site
+markdown: kramdown
+highlighter: rouge
+
+sass:
+    sass_dir: _sass
+    style: compressed
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+#plugins: ['jekyll-paginate']
+exclude: ['README.md', 'screenshot-overview.png']
